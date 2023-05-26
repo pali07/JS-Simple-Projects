@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 5px 7px;
+  background-color: white;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.btn:active{
+  box-shadow: none;
+  outline: none;
+}
