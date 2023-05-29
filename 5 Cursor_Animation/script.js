@@ -4,7 +4,6 @@ var timeout;
 document.addEventListener("mousemove",movement);
 
 function movement(e){
-   console.log("moving")
         let x = e.pageX;
         let y = e.pageY;
         curserEl.style.left = x + "px";
